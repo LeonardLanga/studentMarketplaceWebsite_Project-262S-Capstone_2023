@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+  /*Styling the navigation bar*/
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color:  #f2f2f2;
+  border-bottom: 1px solid #aeaeae;
+}
+  
+.navbar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+  
+.navbar li {
+  float: left;
+}
+  
+.navbar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 16px;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.unique{
+  border-bottom: 2px solid #333;
+}
+
+.btn {
+  display: inline-block;
+  background-color: none;
+  color: black;
+  padding: 0 20px;
+  text-decoration: none;
+  border-radius: 2px;
+  width: 150px;
+  border: 2px solid black;
+}
+  
+.btn:hover {
+  background-color: #333;
+  color:white;
+}
+  
+.navbar li a:hover:not(.unique) {
+  border-bottom: 2px solid #333; 
+}
+
+/* end of navigation bar */
+
+
+/* Styling the landing page */
+
+.landing-page {
+  background-color: #f2f2f2;
+  padding: 100px;
+  position: relative;
+}
+
+.landing-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-side {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-side {
+  flex: 1;
+  text-align: right;
+}
+
+.heading h1 {
+  font-size: 40px;
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.passage p {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.link-to-login a {
+  display: inline-block;
+  background-color: none;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+  margin-top: 40px;
+  width: 150px;
+  text-align: center;
+  border: 2px solid black;
+  font-size: 14px;
+}
+
+.link-to-login a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.link-to-about {
+  position: absolute;
+  bottom: 80px; 
+  left: 40px; 
+}
+.link-to-about a {
+  display: inline-block;
+  color: gray;
+  text-decoration: none;
+  transition: color 0.3s ease
+}
+
+.link-to-about a:hover {
+  color: black;
+}
+
+.image img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* end of landing page*/
+
+
+/* Styling the about page */
+
+.about-page {
+  background-color: #f2f2f2;
+  padding: 100px;
+  position: relative;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-heading{
+  text-align: center;
+}
+
+.about-heading h1{
+  font-size: 32px;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.about-left-side {
+  flex: 1;
+  padding: 20px;
+}
+
+.about-right-side {
+  flex: 1;
+  text-align: left;
+}
+
+.about-subheading h2 {
+  font-size: 25px;
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.about-passage p {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.link-to-register a {
+  display: inline-block;
+  background-color: none;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+  width: 150px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.link-to-register a:hover {
+  background-color: #333;
+  color: white;
+}
+
+.link-to-landing {
+  position: absolute;
+  bottom: 40px; 
+  right: 40px; 
+}
+
+.link-to-landing a {
+  display: inline-block;
+  color: gray;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link-to-landing a:hover {
+  color: black;
+}
+
+/* end of about page */
